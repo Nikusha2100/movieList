@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+MR_ROBOT="https://mykadri.tv/3858-mister-roboti-mr-robot.html"
+DRAGON_BALL_Z="https://animecity.ge/anime/323-z.html"
+
+echo "airchie filmi an seriali"
+echo "1. Mr robot"
+echo "2. Dragon ball Z"
+
+read  choice
+
+case $choice in
+    1) xdg-open "$MR_ROBOT" ;;
+    2) xdg-open "$DRAGON_BALL_Z" ;;
+    *) echo "araswori archevani." ;;
+esac
